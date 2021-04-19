@@ -109,6 +109,7 @@ class ReactNativeDraw extends PureComponent<ReactNativeDrawProps> {
           domStorageEnabled={true}
           scrollEnabled={false}
           incognito={true}
+          androidLayerType={'software'} 
         />
       </View>
     );
